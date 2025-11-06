@@ -14,7 +14,6 @@
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  border-radius: 12px;
   padding: 24px;
 }
 
@@ -43,7 +42,7 @@
 
 .search-bar button {
   padding: 12px 16px;
-  background-color: #0099ff;
+  background-color: #001aff;
   color: white;
   font-weight: 600;
   border-radius: 8px;
@@ -71,7 +70,6 @@
   margin-top: 24px;
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 8px;
   border: 1px solid #e0e0e0;
   text-align: center;
 }
@@ -84,7 +82,7 @@
 }
 
 .weather-temp {
-  font-size: 52px;
+  font-size: 44px; 
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -97,9 +95,13 @@
 }
 
 .weather-details {
-  display: flex;
-  justify-content: space-around;
+  display: block;
+  text-align: center; 
   font-size: 16px;
+}
+
+.weather-details p {
+    margin: 5px 0;
 }
 
 .request-count {
