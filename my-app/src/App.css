@@ -1,0 +1,95 @@
+.container {
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #c4c4c4;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.cat-gallery {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cat-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.cat-image {
+    max-width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.nav-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #c4c4c4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #a0a0a0;
+}
+
+.nasa-image-gallery {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.nasa-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.nasa-image {
+    max-width: 80%;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.error-message {
+    color: #D32F2F;
+    font-weight: bold;
+}
